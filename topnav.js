@@ -1,4 +1,4 @@
-// 导航配置
+
 const navConfig = {
     items: [
         { name: '简介', url: '/J2Cmusic/' },
@@ -7,7 +7,6 @@ const navConfig = {
     ]
 };
 
-// 加载导航栏样式
 function loadCSS(url) {
     var link = document.createElement("link");
     link.rel = "stylesheet";
@@ -15,7 +14,6 @@ function loadCSS(url) {
     document.head.appendChild(link);
 }
 
-// 插入导航栏
 function insertNav() {
     const currentURL = window.location.href;
 

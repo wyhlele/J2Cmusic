@@ -1,25 +1,19 @@
-/**
- * 左侧次级导航栏 - 纯逻辑封装
- * 依赖：styles.css（必须单独引入）
- * 功能：作品分类展开 + 项目选择切换 URL
- */
 
 (function() {
     'use strict';
 
-    // 导航配置数据 - URL 结构：works/分类文件夹/项目.html
     const sidebarConfig = {
         title: '柚子の小曲',
-        basePath: '/J2Cmusic/yuzu', // 基础路径前缀
+        basePath: '/J2Cmusic/yuzu',
         categories: [
             {
                 id: 'buraban',
                 name: '管乐恋曲! -The Bonds of Melody-',
-                folder: 'buraban', // 对应 URL 中的文件夹名
+                folder: 'buraban',
                 expanded: true,
                 projects: [
-                    { name: 'Beautiful Harmony', file: 'yuzu0100.html' },
-                    { name: 'My Dear', file: 'yuzu01ff.html' },
+                    { name: 'Beautiful Harmony', file: 'yuzu01op.html' },
+                    { name: 'My Dear', file: 'yuzu01ed.html' },
                 ]
             },
             {
@@ -217,29 +211,31 @@
                     { name: '燈月小夜曲', file: 'mg.html' },
                     { name: '最終快速', file: 'mg.html' },
                     { name: 'FOR GLORY (with "gem of rubble")', file: 'mg.html' },
+                    { name: 'ヒカリノウタ', file: 'mg.html' },
+                    { name: 'Grateful dats', file: 'mg.html' },
+                    { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～', file: 'mg.html' },
+                    { name: 'おんなじ気持ち', file: 'mg.html' },
+                    { name: '奏で', file: 'mg.html' },
+                    { name: '愛しさこぼれる', file: 'mg.html' },
                 ]
             }
         ]
     };
 
-    // 构建完整 URL
     function buildUrl(categoryFolder, projectFile) {
         return `${sidebarConfig.basePath}/${categoryFolder}/${projectFile}`;
     }
 
-    // 创建左侧导航栏 DOM
     function createSidebar() {
         const sidebar = document.createElement('nav');
         sidebar.className = 'sidebar-nav';
         sidebar.id = 'sidebarNav';
 
-        // 标题
         const header = document.createElement('div');
         header.className = 'sidebar-header';
         header.innerHTML = `<div class="sidebar-title">${sidebarConfig.title}</div>`;
         sidebar.appendChild(header);
 
-        // 分类列表
         const list = document.createElement('ul');
         list.className = 'sidebar-list';
 
@@ -249,7 +245,6 @@
             categoryItem.dataset.folder = category.folder;
             if (category.expanded) categoryItem.classList.add('expanded');
 
-            // 分类标题
             const title = document.createElement('div');
             title.className = 'sidebar-category-title';
             title.textContent = category.name;
@@ -257,7 +252,6 @@
                 categoryItem.classList.toggle('expanded');
             });
 
-            // 项目列表
             const projectsList = document.createElement('ul');
             projectsList.className = 'sidebar-projects';
 
@@ -271,11 +265,9 @@
                 link.dataset.file = project.file;
                 
                 link.addEventListener('click', (e) => {
-                    // 移除所有激活状态
                     document.querySelectorAll('.sidebar-project-link').forEach(l => {
                         l.classList.remove('active');
                     });
-                    // 激活当前
                     link.classList.add('active');
                 });
 
@@ -292,7 +284,6 @@
         return sidebar;
     }
 
-    // 创建移动端切换按钮
     function createMobileToggle() {
         const toggle = document.createElement('button');
         toggle.className = 'sidebar-toggle';
@@ -301,7 +292,6 @@
 
         const sidebar = document.getElementById('sidebarNav');
         
-        // 创建遮罩
         const overlay = document.createElement('div');
         overlay.className = 'sidebar-overlay';
         overlay.id = 'sidebarOverlay';
@@ -318,7 +308,6 @@
             toggle.innerHTML = isShow ? '◀' : '▶';
         });
 
-        // 点击链接后关闭菜单
         sidebar.addEventListener('click', (e) => {
             if (e.target.tagName === 'A' && window.innerWidth <= 768) {
                 sidebar.classList.remove('show');
@@ -331,53 +320,40 @@
         return toggle;
     }
 
-    // 根据当前 URL 高亮对应项目
-    // URL 格式：xxx/分类文件夹/项目.html
     function highlightCurrentProject() {
         const currentPath = window.location.pathname;
         
-        // 解析当前路径，获取文件夹和文件名
-        // 例如：/works/web/enterprise.html 或 works/web/enterprise.html
         const pathParts = currentPath.split('/').filter(p => p);
         
-        // 至少需要 basePath/category/file.html
         if (pathParts.length < 2) return;
 
-        // 找到 basePath 的索引
         const baseIndex = pathParts.indexOf(sidebarConfig.basePath);
         if (baseIndex === -1) return;
 
-        // 获取分类文件夹和文件名
         const categoryFolder = pathParts[baseIndex + 1];
         const projectFile = pathParts[baseIndex + 2];
 
         if (!categoryFolder || !projectFile) return;
 
-        // 匹配并高亮
         document.querySelectorAll('.sidebar-project-link').forEach(link => {
             const linkFolder = link.dataset.folder;
             const linkFile = link.dataset.file;
 
             if (linkFolder === categoryFolder && linkFile === projectFile) {
                 link.classList.add('active');
-                // 展开父级分类
                 const category = link.closest('.sidebar-category');
                 if (category) category.classList.add('expanded');
             }
         });
     }
 
-    // 初始化函数（暴露全局）
     window.initSidebarNav = function() {
-        // 插入导航栏
         const sidebar = createSidebar();
         document.body.insertBefore(sidebar, document.body.firstChild);
         
-        // 插入移动端按钮
         const toggle = createMobileToggle();
         document.body.appendChild(toggle);
 
-        // 高亮当前项目
         highlightCurrentProject();
     };
 

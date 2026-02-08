@@ -1,6 +1,4 @@
 
-/* ==================== 顶部胶囊导航栏 ==================== */
-
 .top-nav {
     position: sticky;
     top: 20px;
@@ -15,7 +13,6 @@
     z-index: 1000;
 }
 
-/* 导航列表容器 */
 .nav-list {
     display: flex;
     align-items: center;
@@ -25,13 +22,11 @@
     position: relative;
 }
 
-/* 单个导航项 */
 .nav-item {
     position: relative;
     z-index: 1;
 }
 
-/* 导航链接样式 */
 .nav-link {
     display: block;
     padding: 12px 28px;
@@ -45,19 +40,16 @@
     white-space: nowrap;
 }
 
-/* 选中状态 - 黑色文字 */
 .nav-link.active {
     color: #ffffff;
     background: #000000;
 }
 
-/* 悬停效果 - 浅灰文字 + 微背景 */
 .nav-link:not(.active):hover {
     color: #a2a2a2;
     background: rgba(0, 0, 0, 0.03);
 }
 
-/* ==================== 移动端适配 ==================== */
 
 @media (max-width: 640px) {
     .top-nav {
@@ -79,7 +71,6 @@
     }
 }
 
-/* 隐藏滚动条但保持功能 */
 .top-nav::-webkit-scrollbar {
     display: none;
 }
