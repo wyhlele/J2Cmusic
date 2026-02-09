@@ -161,7 +161,7 @@
                     { name: '@Your Side', file: 'mg.html' },
                     { name: 'Sweetest Bitterness', file: 'demo.html' },
                     { name: 'ほんとにありがとう',Sile: 'mg.html' },
-                    { name: '心地いい日常', file: 'demo.html' },
+                    { name: '心地いい日常', file: 'yuzu11nozomi.html' },
                     { name: '光', file: 'mg.html' },
                     { name: 'Happy Sunshine', file: 'demo.html' },
                     { name: 'Cold&Sweet', file: 'mg.html' },

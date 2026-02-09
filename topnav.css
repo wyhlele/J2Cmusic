@@ -51,25 +51,70 @@
 }
 
 
+@media (max-width: 768px) {
+    .top-nav {
+        margin: 15px auto;
+        width: calc(100% - 40px);
+        max-width: none;
+    }
+    
+    .nav-list {
+        gap: 3px;
+    }
+    
+    .nav-link {
+        padding: 10px 22px;
+        font-size: 13.5px;
+    }
+}
+
+/* 移动端适配 */
 @media (max-width: 640px) {
     .top-nav {
-        margin: 10px;
-        max-width: none;
-        border-radius: 30px;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        position: sticky;
+        top: 10px;
+        margin: 10px auto;
+        width: calc(100% - 20px);
+        border-radius: 40px;
+        padding: 5px;
+        overflow-x: visible;
     }
 
     .nav-list {
-        justify-content: flex-start;
+        justify-content: space-around;
+        gap: 3px;
         padding: 0 10px;
+        width: max-content;
+        min-width: 100%;
     }
 
     .nav-link {
         padding: 10px 20px;
         font-size: 13px;
+        white-space: nowrap;
+    }
+    
+    .top-nav::-webkit-scrollbar {
+        display: block;
+        height: 4px;
+    }
+    
+    .top-nav::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 2px;
+        margin: 0 10px;
+    }
+    
+    .top-nav::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 2px;
+    }
+    
+    .top-nav::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.25);
     }
 }
+
 
 .top-nav::-webkit-scrollbar {
     display: none;
