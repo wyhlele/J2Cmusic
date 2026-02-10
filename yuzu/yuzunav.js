@@ -120,7 +120,7 @@
                 projects: [
                     { name: '恋ひ恋ふ縁', file: 'mg.html' },
                     { name: '愛しさと感謝の気持ちを', file: 'mg.html' },
-                    { name: 'とおりゃんせ~甘美風来', file: 'demo.html' },
+                    { name: 'とおりゃんせ~甘美風来', file: 'yuzu09yoshino.html' },
                     { name: 'ふたりで', file: 'mg.html' },
                     { name: '茉子の日常', file: 'demo.html' },
                     { name: 'ふたつの影',Sile: 'mg.html' },
