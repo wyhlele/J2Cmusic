@@ -4,7 +4,7 @@
 
     const sidebarConfig = {
         title: '其他の小曲',
-        basePath: '/J2Cmusic/else',
+        basePath: 'else',
         categories: [
             {
                 id: 'yosuganosora',
@@ -12,8 +12,8 @@
                 folder: 'yosuga',
                 expanded: true,
                 projects: [
-                    { name: 'フタリ', file: 'yuzu0100.html' },
-                    { name: 'アリガト', file: 'yuzu01ff.html' },
+                    { name: 'フタリ', file: 'yosuganosoraSORA.html' },
+                    { name: 'アリガト', file: 'yosuganosoraKAZURA.html' },
                 ]
             },
             {
@@ -22,7 +22,7 @@
                 folder: 'hatsuyuki',
                 expanded: false,
                 projects: [
-                    { name: '風花', file: 'vi.html' },
+                    { name: '風花', file: 'hatsuyukiEDnormal.html' },
                 ]
             },
             {
@@ -31,14 +31,14 @@
                 folder: 'tsukiotome',
                 expanded: false,
                 projects: [
-                    { name: '泣き虫Baby・弱虫Baby', file: 'commercial.html' },
+                    { name: '泣き虫Baby・弱虫Baby', file: 'tsukiotome10ed.html' },
                 ]
             }
         ]
     };
 
     function buildUrl(categoryFolder, projectFile) {
-        return `${sidebarConfig.basePath}/${categoryFolder}/${projectFile}`;
+        return `/J2Cmusic/${sidebarConfig.basePath}/${categoryFolder}/${projectFile}`;
     }
 
     function createSidebar() {
@@ -137,6 +137,10 @@
 
     function highlightCurrentProject() {
         const currentPath = window.location.pathname;
+
+        document.querySelectorAll('.sidebar-category').forEach(category => {
+            category.classList.remove('expanded');
+        })
         
         const pathParts = currentPath.split('/').filter(p => p);
         

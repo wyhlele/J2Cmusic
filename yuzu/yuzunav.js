@@ -4,7 +4,7 @@
 
     const sidebarConfig = {
         title: '柚子の小曲',
-        basePath: '/J2Cmusic/yuzu',
+        basePath: 'yuzu',
         categories: [
             {
                 id: 'buraban',
@@ -22,8 +22,8 @@
                 folder: 'ExE',
                 expanded: false,
                 projects: [
-                    { name: 'Trust in me', file: 'vi.html' },
-                    { name: 'True Drop', file: 'poster.html' },
+                    { name: 'Trust in me', file: 'yuzu02op.html' },
+                    { name: 'True Drop', file: 'yuzu02ed.html' },
                 ]
             },
             {
@@ -32,8 +32,8 @@
                 folder: 'natsu',
                 expanded: false,
                 projects: [
-                    { name: '想いのカナタ', file: 'commercial.html' },
-                    { name: 'リフレイン', file: 'concept.html' },
+                    { name: '想いのカナタ', file: 'yuzu03op.html' },
+                    { name: 'リフレイン', file: 'yuzu03ed.html' },
                 ]
             },
             {
@@ -42,12 +42,12 @@
                 folder: 'tenshin',
                 expanded: false,
                 projects: [
-                    { name: 'メチャ恋らんまん', file: 'mg.html' },
-                    { name: 'MUGEN∞MIRAI', file: 'demo.html' },
-                    { name: 'Charge of Soul', file: 'mg.html' },
-                    { name: '小さな願い', file: 'demo.html' },
-                    { name: 'With you!!', file: 'mg.html' },
-                    { name: 'モットー', file: 'demo.html' },
+                    { name: 'メチャ恋らんまん', file: 'yuzu04op.html' },
+                    { name: 'MUGEN∞MIRAI', file: 'yuzu04ed.html' },
+                    { name: 'Charge of Soul', file: 'yuzu04hime.html' },
+                    { name: '小さな願い', file: 'yuzu04ruri.html' },
+                    { name: 'With you!!', file: 'yuzu04sana.html' },
+                    { name: 'モットー', file: 'yuzu04aoi.html' },
                 ]
             },
             {
@@ -56,13 +56,13 @@
                 folder: 'nw',
                 expanded: false,
                 projects: [
-                    { name: 'Change&Chance!', file: 'mg.html' },
-                    { name: '光差す未来', file: 'demo.html' },
-                    { name: '恋の爆弾', file: 'mg.html' },
-                    { name: 'お仕事します', file: 'demo.html' },
-                    { name: '誰にも言えない秘密です', file: 'mg.html' },
-                    { name: 'だっしゅ☆', file: 'demo.html' },
-                    { name: '青い鳥', file: 'demo.html' },
+                    { name: 'Change&Chance!', file: 'yuzu05op.html' },
+                    { name: '光差す未来', file: 'yuzu05ed.html' },
+                    { name: '恋の爆弾', file: 'yuzu05akari.html' },
+                    { name: 'お仕事します', file: 'yuzu05sena.html' },
+                    { name: '誰にも言えない秘密です', file: 'yuzu05shizuru.html' },
+                    { name: 'だっしゅ☆', file: 'yuzu05hinata.html' },
+                    { name: '青い鳥', file: 'yuzu05maya.html' },
                 ]
             },
             {
@@ -71,12 +71,12 @@
                 folder: 'dracuriot',
                 expanded: false,
                 projects: [
-                    { name: 'Scarlet', file: 'mg.html' },
-                    { name: '君だけの僕', file: 'demo.html' },
-                    { name: 'Love Incident', file: 'mg.html' },
-                    { name: 'Growing!', file: 'demo.html' },
-                    { name: 'きっと大丈夫', file: 'mg.html' },
-                    { name: 'NO LIMIT', file: 'demo.html' },
+                    // { name: 'Scarlet', file: 'yuzu06op.html' },
+                    { name: '君だけの僕', file: 'yuzu06ed.html' },
+                    { name: 'Love Incident', file: 'yuzu06miu.html' },
+                    { name: 'Growing!', file: 'yuzu06azusa.html' },
+                    // { name: 'きっと大丈夫', file: 'yuzu06rio.html' },
+                    { name: 'NO LIMIT', file: 'yuzu06erina.html' },
                 ]
             },
             {
@@ -85,12 +85,12 @@
                 folder: 'amairo',
                 expanded: false,
                 projects: [
-                    { name: 'Blue-Love Chime', file: 'mg.html' },
-                    { name: '天色', file: 'demo.html' },
-                    { name: 'step forward', file: 'mg.html' },
-                    { name: '私だけの空', file: 'demo.html' },
-                    { name: 'アオゾラキャンバス', file: 'mg.html' },
-                    { name: '大好きなんだ', file: 'demo.html' },
+                    { name: 'Blue-Love Chime', file: 'yuzu07op.html' },
+                    { name: '天色', file: 'yuzu07ed.html' },
+                    { name: 'step forward', file: 'yuzu07shaarii.html' },
+                    { name: '私だけの空', file: 'yuzu07yuune.html' },
+                    { name: 'アオゾラキャンバス', file: 'yuzu07airi.html' },
+                    // { name: '大好きなんだ', file: 'yuzu07masaki.html' },
                 ]
             },
             {
@@ -99,17 +99,17 @@
                 folder: 'sothewitch',
                 expanded: false,
                 projects: [
-                    { name: '恋せよ乙女!', file: 'mg.html' },
-                    { name: 'Re:Start~君とまた出逢えて', file: 'mg.html' },
-                    { name: 'sweet treasure', file: 'demo.html' },
-                    { name: '天使の羽とクリスタル', file: 'mg.html' },
-                    { name: 'リアルフレンド', file: 'demo.html' },
-                    { name: 'スカート',Sile: 'mg.html' },
-                    { name: 'Sweet Sweet アリス', file: 'demo.html' },
-                    { name: '君がくれた光', file: 'mg.html' },
-                    { name: 'Midday Star', file: 'demo.html' },
-                    { name: '大好き', file: 'mg.html' },
-                    { name: 'Without You', file: 'demo.html' },
+                    { name: '恋せよ乙女!', file: 'yuzu08op.html' },
+                    { name: 'Re:Start~君とまた出逢えて', file: 'yuzu08ednene.html' },
+                    // { name: 'sweet treasure', file: 'yuzu08nene.html' },
+                    { name: '天使の羽とクリスタル', file: 'yuzu08edmeguru.html' },
+                    { name: 'リアルフレンド', file: 'yuzu08meguru.html' },
+                    { name: 'スカート',Sile: 'yuzu08edtsumugi.html' },
+                    { name: 'Sweet Sweet アリス', file: 'yuzu08tsumugi.html' },
+                    // { name: '君がくれた光', file: 'yuzu08edtouko.html' },
+                    // { name: 'Midday Star', file: 'yuzu08touko.html' },
+                    { name: '大好き', file: 'yuzu08edwakana.html' },
+                    { name: 'Without You', file: 'yuzu08extra.html' },
                 ]
             },
             {
@@ -118,17 +118,17 @@
                 folder: 'senren',
                 expanded: false,
                 projects: [
-                    { name: '恋ひ恋ふ縁', file: 'mg.html' },
-                    { name: '愛しさと感謝の気持ちを', file: 'mg.html' },
+                    // { name: '恋ひ恋ふ縁', file: 'yuzu09op.html' },
+                    { name: '愛しさと感謝の気持ち', file: 'yuzu09edyoshino.html' },
                     { name: 'とおりゃんせ~甘美風来', file: 'yuzu09yoshino.html' },
-                    { name: 'ふたりで', file: 'mg.html' },
-                    { name: '茉子の日常', file: 'demo.html' },
-                    { name: 'ふたつの影',Sile: 'mg.html' },
-                    { name: 'キズナヒトツ', file: 'demo.html' },
-                    { name: 'GIFT', file: 'mg.html' },
-                    { name: 'Blue Sky', file: 'demo.html' },
-                    { name: 'Love flower', file: 'mg.html' },
-                    { name: 'キミのとなり', file: 'demo.html' },
+                    { name: 'ふたりで', file: 'yuzu09edmako.html' },
+                    { name: '茉子の日常', file: 'yuzu09mako.html' },
+                    // { name: 'ふたつの影',Sile: 'yuzu09edmurasame.html' },
+                    // { name: 'キズナヒトツ', file: 'yuzu09murasame.html' },
+                    { name: 'GIFT', file: 'yuzu09edrena.html' },
+                    { name: 'Blue Sky', file: 'yuzu09rena.html' },
+                    { name: 'Love flower', file: 'yuzu09edkoharu.html' },
+                    { name: 'キミのとなり', file: 'yuzu09edroka.html' },
                 ]
             },
             {
@@ -137,16 +137,16 @@
                 folder: 'riddle',
                 expanded: false,
                 projects: [
-                    { name: 'astral ability', file: 'mg.html' },
-                    { name: 'ゆびきり', file: 'mg.html' },
-                    { name: 'PERFECT GIRL', file: 'demo.html' },
-                    { name: 'ずっと', file: 'mg.html' },
-                    { name: 'Sympathy', file: 'demo.html' },
-                    { name: '初恋',Sile: 'mg.html' },
-                    { name: '強がるオトナのSecret Labo', file: 'demo.html' },
-                    { name: '恋だより', file: 'mg.html' },
-                    { name: '大和撫子は憧れ', file: 'demo.html' },
-                    { name: '陽だまり笑顔で', file: 'mg.html' },
+                    // { name: 'astral ability', file: 'yuzu10op.html' },
+                    { name: 'ゆびきり', file: 'yuzu10edayase.html' },
+                    { name: 'PERFECT GIRL', file: 'yuzu10ayase.html' },
+                    { name: 'ずっと', file: 'yuzu10ednanami.html' },
+                    { name: 'Sympathy', file: 'yuzu10nanami.html' },
+                    { name: '初恋',Sile: 'yuzu10edmayu.html' },
+                    // { name: '強がるオトナのSecret Labo', file: 'yuzu10mayu.html' },
+                    { name: '恋だより', file: 'yuzu10edhazuki.html' },
+                    { name: '大和撫子は憧れ', file: 'yuzu10hazuki.html' },
+                    { name: '陽だまり笑顔で', file: 'yuzu10edchisaki.html' },
                 ]
             },
             {
@@ -155,16 +155,16 @@
                 folder: 'stella',
                 expanded: false,
                 projects: [
-                    { name: 'Smiling-Swinging!!', file: 'mg.html' },
-                    { name: 'スィートマリージュ', file: 'mg.html' },
-                    { name: 'Only you!', file: 'demo.html' },
-                    { name: '@Your Side', file: 'mg.html' },
-                    { name: 'Sweetest Bitterness', file: 'demo.html' },
-                    { name: 'ほんとにありがとう',Sile: 'mg.html' },
+                    { name: 'Smiling-Swinging!!', file: 'yuzu11op.html' },
+                    { name: 'スィートマリージュ', file: 'yuzu11edkanna.html' },
+                    { name: 'Only you!', file: 'yuzu11kanna.html' },
+                    { name: '@Your Side', file: 'yuzu11ednatsume.html' },
+                    // { name: 'Sweetest Bitterness', file: 'yuzu11natsume.html' },
+                    { name: 'ほんとにありがとう',Sile: 'yuzu11ednozomi.html' },
                     { name: '心地いい日常', file: 'yuzu11nozomi.html' },
-                    { name: '光', file: 'mg.html' },
-                    { name: 'Happy Sunshine', file: 'demo.html' },
-                    { name: 'Cold&Sweet', file: 'mg.html' },
+                    { name: '光', file: 'yuzu11edmei.html' },
+                    // { name: 'Happy Sunshine', file: 'yuzu11mei.html' },
+                    { name: 'Cold&Sweet', file: 'yuzu11edsuzune.html' },
                 ]
             },
             {
@@ -173,8 +173,8 @@
                 folder: 'parquet',
                 expanded: false,
                 projects: [
-                    { name: 'BEYOND', file: 'mg.html' },
-                    { name: 'フレルフルエル', file: 'demo.html' },
+                    // { name: 'BEYOND', file: 'souryuzu01op.html' },
+                    { name: 'フレルフルエル', file: 'souryuzu01ed.html' },
                 ]
             },
             {
@@ -183,17 +183,17 @@
                 folder: 'ten_sz',
                 expanded: false,
                 projects: [
-                    { name: 'FUN FUN RE-BOOT', file: 'mg.html' },
-                    { name: 'Call My Name', file: 'mg.html' },
-                    { name: '君とボクのハジメテ', file: 'demo.html' },
-                    { name: 'ねぇ。', file: 'mg.html' },
-                    { name: 'ワタシだけ', file: 'demo.html' },
-                    { name: '以心伝心ジャーニー',Sile: 'mg.html' },
-                    { name: 'アオハルデイズ', file: 'demo.html' },
-                    { name: 'DIVE', file: 'mg.html' },
-                    { name: '惚れて揺れて恋焦がれ', file: 'demo.html' },
-                    { name: '幸せの魔法', file: 'mg.html' },
-                    { name: 'wish', file: 'demo.html' },
+                    // { name: 'FUN FUN RE-BOOT', file: 'yuzu12op.html' },
+                    { name: 'Call My Name', file: 'yuzu12ednoa.html' },
+                    // { name: '君とボクのハジメテ', file: 'yuzu12noa.html' },
+                    { name: 'ねぇ。', file: 'yuzu12edamane.html' },
+                    // { name: 'ワタシだけ', file: 'yuzu12amane.html' },
+                    { name: '以心伝心ジャーニー',Sile: 'yuzu12edkurumi.html' },
+                    // { name: 'アオハルデイズ', file: 'yuzu12kurumi.html' },
+                    { name: 'DIVE', file: 'yuzu12edkaguya.html' },
+                    // { name: '惚れて揺れて恋焦がれ', file: 'yuzu12kaguya.html' },
+                    { name: '幸せの魔法', file: 'yuzu12edorie.html' },
+                    { name: 'wish', file: 'yuzu12edfumika.html' },
                 ]
             },
             {
@@ -202,28 +202,28 @@
                 folder: 'lllj',
                 expanded: false,
                 projects: [
-                    { name: '明け星', file: 'mg.html' },
-                    { name: 'Be brand new', file: 'mg.html' },
-                    { name: '放光酸化', file: 'mg.html' },
-                    { name: '幻灯花火', file: 'mg.html' },
-                    { name: '陽だまりのように', file: 'mg.html' },
-                    { name: 'RGB', file: 'mg.html' },
-                    { name: '燈月小夜曲', file: 'mg.html' },
-                    { name: '最終快速', file: 'mg.html' },
-                    { name: 'FOR GLORY (with "gem of rubble")', file: 'mg.html' },
-                    { name: 'ヒカリノウタ', file: 'mg.html' },
-                    { name: 'Grateful dats', file: 'mg.html' },
-                    { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～', file: 'mg.html' },
-                    { name: 'おんなじ気持ち', file: 'mg.html' },
-                    { name: '奏で', file: 'mg.html' },
-                    { name: '愛しさこぼれる', file: 'mg.html' },
+                    { name: '明け星', file: 'yuzu13op.html' },
+                    { name: 'Be brand new', file: 'yuzu13extra1.html' },
+                    { name: '放光酸化', file: 'yuzu13extra2.html' },
+                    { name: '幻灯花火', file: 'yuzu13extra3.html' },
+                    { name: '陽だまりのように', file: 'yuzu13extraena.html' },
+                    { name: 'RGB', file: 'yuzu13extraanju.html' },
+                    { name: '燈月小夜曲', file: 'yuzu13extratsukimi.html' },
+                    { name: '最終快速', file: 'yuzu13extraririko.html' },
+                    { name: 'FOR GLORY (with "gem of rubble")', file: 'yuzu13extramiku.html' },
+                    { name: 'ヒカリノウタ（Gamesize）', file: 'yuzu13edena.html' },
+                    { name: 'Grateful days（Gamesize）', file: 'yuzu13edanju.html' },
+                    { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～（Gamesize）', file: 'yuzu13edtsukimi.html' },
+                    { name: 'おんなじ気持ち（Gamesize）', file: 'yuzu13edririko.html' },
+                    { name: '奏で（Gamesize）', file: 'yuzu13edmiku.html' },
+                    // { name: '愛しさこぼれる', file: 'yuzu13ednayuka.html' },
                 ]
             }
         ]
     };
 
     function buildUrl(categoryFolder, projectFile) {
-        return `${sidebarConfig.basePath}/${categoryFolder}/${projectFile}`;
+        return `/J2Cmusic/${sidebarConfig.basePath}/${categoryFolder}/${projectFile}`;
     }
 
     function createSidebar() {
@@ -322,6 +322,10 @@
 
     function highlightCurrentProject() {
         const currentPath = window.location.pathname;
+
+        document.querySelectorAll('.sidebar-category').forEach(category => {
+            category.classList.remove('expanded');
+        })
         
         const pathParts = currentPath.split('/').filter(p => p);
         
