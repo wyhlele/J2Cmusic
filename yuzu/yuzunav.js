@@ -71,7 +71,7 @@
                 folder: 'dracuriot',
                 expanded: false,
                 projects: [
-                    // { name: 'Scarlet', file: 'yuzu06op.html' },
+                    { name: 'Scarlet', file: 'yuzu06op.html' },
                     { name: '君だけの僕', file: 'yuzu06ed.html' },
                     { name: 'Love Incident', file: 'yuzu06miu.html' },
                     { name: 'Growing!', file: 'yuzu06azusa.html' },
