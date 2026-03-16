@@ -163,7 +163,7 @@
                     { name: 'ほんとにありがとう', file: 'yuzu11ednozomi.html' },
                     { name: '心地いい日常', file: 'yuzu11nozomi.html' },
                     { name: '光', file: 'yuzu11edmei.html' },
-                    // { name: 'Happy Sunshine', file: 'yuzu11mei.html' },
+                    { name: 'Happy Sunshine', file: 'yuzu11mei.html' },
                     { name: 'Cold&Sweet', file: 'yuzu11edsuzune.html' },
                 ]
             },
