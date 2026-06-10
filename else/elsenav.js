@@ -33,6 +33,15 @@
                 projects: [
                     { name: '泣き虫Baby・弱虫Baby', file: 'tsukiotome10ed.html' },
                 ]
+            },
+            {
+                id: 'bangdream',
+                name: '邦多利',
+                folder: 'bangdream',
+                expanded: false,
+                projects: [
+                    { name: '春日影', file: 'haruhikage.html' },
+                ]
             }
         ]
     };

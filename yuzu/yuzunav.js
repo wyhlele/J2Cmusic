@@ -90,7 +90,7 @@
                     { name: 'step forward', file: 'yuzu07shaarii.html' },
                     { name: '私だけの空', file: 'yuzu07yuune.html' },
                     { name: 'アオゾラキャンバス', file: 'yuzu07airi.html' },
-                    // { name: '大好きなんだ', file: 'yuzu07masaki.html' },
+                    { name: '大好きなんだ', file: 'yuzu07masaki.html' },
                 ]
             },
             {
@@ -107,7 +107,7 @@
                     { name: 'スカート', file: 'yuzu08edtsumugi.html' },
                     { name: 'Sweet Sweet アリス', file: 'yuzu08tsumugi.html' },
                     // { name: '君がくれた光', file: 'yuzu08edtouko.html' },
-                    // { name: 'Midday Star', file: 'yuzu08touko.html' },
+                    { name: 'Midday Star', file: 'yuzu08touko.html' },
                     { name: '大好き', file: 'yuzu08edwakana.html' },
                     { name: 'Without You', file: 'yuzu08extra.html' },
                 ]
