@@ -100,7 +100,7 @@
                 expanded: false,
                 projects: [
                     { name: '恋せよ乙女!', file: 'yuzu08op.html' },
-                    { name: 'Re:Start~君とまた出逢えて', file: 'yuzu08ednene.html' },
+                    { name: 'Re:Start~君とまた出逢えて~', file: 'yuzu08ednene.html' },
                     { name: 'sweet treasure', file: 'yuzu08nene.html' },
                     { name: '天使の羽とクリスタル', file: 'yuzu08edmeguru.html' },
                     { name: 'リアルフレンド', file: 'yuzu08meguru.html' },
@@ -143,7 +143,7 @@
                     { name: 'ずっと', file: 'yuzu10ednanami.html' },
                     { name: 'Sympathy', file: 'yuzu10nanami.html' },
                     { name: '初恋', file: 'yuzu10edmayu.html' },
-                    // { name: '強がるオトナのSecret Labo', file: 'yuzu10mayu.html' },
+                    { name: '強がるオトナのSecret Labo', file: 'yuzu10mayu.html' },
                     { name: '恋だより', file: 'yuzu10edhazuki.html' },
                     { name: '大和撫子は憧れ', file: 'yuzu10hazuki.html' },
                     { name: '陽だまり笑顔で', file: 'yuzu10edchisaki.html' },
