@@ -185,7 +185,7 @@
                 projects: [
                     // { name: 'FUN FUN RE-BOOT', file: 'yuzu12op.html' },
                     { name: 'Call My Name', file: 'yuzu12ednoa.html' },
-                    // { name: '君とボクのハジメテ', file: 'yuzu12noa.html' },
+                    { name: '君とボクのハジメテ', file: 'yuzu12noa.html' },
                     { name: 'ねぇ。', file: 'yuzu12edamane.html' },
                     // { name: 'ワタシだけ', file: 'yuzu12amane.html' },
                     { name: '以心伝心ジャーニー', file: 'yuzu12edkurumi.html' },
@@ -215,7 +215,7 @@
                     // { name: 'Grateful days（Gamesize）', file: 'yuzu13edanju.html' },
                     // { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～（Gamesize）', file: 'yuzu13edtsukimi.html' },
                     // { name: 'おんなじ気持ち（Gamesize）', file: 'yuzu13edririko.html' },
-                    // { name: '奏で（Gamesize）', file: 'yuzu13edmiku.html' },
+                    { name: '奏で', file: 'yuzu13edmiku.html' },
                     // { name: '愛しさこぼれる', file: 'yuzu13ednayuka.html' },
                 ]
             }
