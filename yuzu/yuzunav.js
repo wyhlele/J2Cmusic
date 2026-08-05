@@ -156,7 +156,7 @@
                 expanded: false,
                 projects: [
                     { name: 'Smiling-Swinging!!', file: 'yuzu11op.html' },
-                    { name: 'スィートマリージュ', file: 'yuzu11edkanna.html' },
+                    { name: 'スイートマリージュ', file: 'yuzu11edkanna.html' },
                     { name: 'Only you!', file: 'yuzu11kanna.html' },
                     { name: '@Your Side', file: 'yuzu11ednatsume.html' },
                     { name: 'Sweetest Bitterness', file: 'yuzu11natsume.html' },
@@ -211,12 +211,12 @@
                     { name: '燈月小夜曲', file: 'yuzu13extratsukimi.html' },
                     { name: '最終快速', file: 'yuzu13extraririko.html' },
                     { name: 'FOR GLORY (with "gem of rubble")', file: 'yuzu13extramiku.html' },
-                    // { name: 'ヒカリノウタ（Gamesize）', file: 'yuzu13edena.html' },
-                    // { name: 'Grateful days（Gamesize）', file: 'yuzu13edanju.html' },
-                    // { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～（Gamesize）', file: 'yuzu13edtsukimi.html' },
-                    // { name: 'おんなじ気持ち（Gamesize）', file: 'yuzu13edririko.html' },
+                    // { name: 'ヒカリノウタ', file: 'yuzu13edena.html' },
+                    // { name: 'Grateful days', file: 'yuzu13edanju.html' },
+                    { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～', file: 'yuzu13edtsukimi.html' },
+                    // { name: 'おんなじ気持ち', file: 'yuzu13edririko.html' },
                     { name: '奏で', file: 'yuzu13edmiku.html' },
-                    // { name: '愛しさこぼれる', file: 'yuzu13ednayuka.html' },
+                    { name: '愛しさこぼれる', file: 'yuzu13ednayuka.html' },
                 ]
             }
         ]
