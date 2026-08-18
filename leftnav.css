@@ -243,3 +243,67 @@
         font-size: 14px;
     }
 }
+
+/* =========================
+   左侧导航夜间模式
+   ========================= */
+
+html[data-theme="dark"] .sidebar-nav {
+    background: #16181d;
+    border-right-color: #30333a;
+}
+
+html[data-theme="dark"] .sidebar-header {
+    border-bottom-color: #292c32;
+}
+
+html[data-theme="dark"] .sidebar-title {
+    color: #858b96;
+}
+
+html[data-theme="dark"] .sidebar-category-title {
+    color: #d9dde5;
+}
+
+html[data-theme="dark"] .sidebar-category-title:hover {
+    background: #202329;
+}
+
+html[data-theme="dark"] .sidebar-category-title::after {
+    color: #858b96;
+}
+
+html[data-theme="dark"] .sidebar-project-link {
+    color: #a9afb9;
+}
+
+html[data-theme="dark"] .sidebar-project-link:hover {
+    color: #f0f1f3;
+    background: #202329;
+}
+
+html[data-theme="dark"] .sidebar-project-link.active {
+    color: #ffffff;
+    background: #272a31;
+}
+
+html[data-theme="dark"] .sidebar-project-link::before,
+html[data-theme="dark"] .sidebar-project-link.active::before {
+    background: #e5e7eb;
+}
+
+html[data-theme="dark"] .sidebar-nav::-webkit-scrollbar-thumb {
+    background: #3b3e46;
+}
+
+
+/* 手机端左侧菜单按钮 */
+
+html[data-theme="dark"] .sidebar-toggle {
+    background: #16181d;
+    color: #f1f1f1;
+
+    border-color: #34373e;
+
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}

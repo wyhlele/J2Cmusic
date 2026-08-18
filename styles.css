@@ -157,3 +157,54 @@ body {
     }
 
 }
+
+/* =========================
+   夜间模式
+   ========================= */
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+}
+
+body {
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease;
+}
+
+html[data-theme="dark"] body {
+    background: #101216;
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .main-content h1,
+html[data-theme="dark"] .main-content h2 {
+    color: #f2f3f5;
+}
+
+html[data-theme="dark"] .main-content p {
+    color: #b2b7c0;
+}
+
+html[data-theme="dark"] .unified-line {
+    color: #b8bdc7;
+}
+
+html[data-theme="dark"] .bili,
+html[data-theme="dark"] .biliup {
+    color: #b8bdc7;
+}
+
+/* 首页 */
+
+html[data-theme="dark"] .center-text {
+    color: #e5e7eb;
+}
+
+html[data-theme="dark"] .center-text h1 {
+    color: #f2f3f5;
+}
+
+html[data-theme="dark"] .center-text p {
+    color: #b2b7c0;
+}

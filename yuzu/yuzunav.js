@@ -211,10 +211,10 @@
                     { name: '燈月小夜曲', file: 'yuzu13extratsukimi.html' },
                     { name: '最終快速', file: 'yuzu13extraririko.html' },
                     { name: 'FOR GLORY (with "gem of rubble")', file: 'yuzu13extramiku.html' },
-                    // { name: 'ヒカリノウタ', file: 'yuzu13edena.html' },
-                    // { name: 'Grateful days', file: 'yuzu13edanju.html' },
+                    { name: 'ヒカリノウタ', file: 'yuzu13edena.html' },
+                    { name: 'Grateful days', file: 'yuzu13edanju.html' },
                     { name: 'Note\'s Greeting ～エドワード・エルガー「愛の挨拶」より～', file: 'yuzu13edtsukimi.html' },
-                    // { name: 'おんなじ気持ち', file: 'yuzu13edririko.html' },
+                    { name: 'おんなじ気持ち', file: 'yuzu13edririko.html' },
                     { name: '奏で', file: 'yuzu13edmiku.html' },
                     { name: '愛しさこぼれる', file: 'yuzu13ednayuka.html' },
                 ]
