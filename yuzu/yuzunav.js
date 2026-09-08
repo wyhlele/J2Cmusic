@@ -173,7 +173,7 @@
                 folder: 'parquet',
                 expanded: false,
                 projects: [
-                    // { name: 'BEYOND', file: 'souryuzu01op.html' },
+                    { name: 'BEYOND', file: 'souryuzu01op.html' },
                     { name: 'フレルフルエル', file: 'souryuzu01ed.html' },
                 ]
             },
@@ -191,7 +191,7 @@
                     { name: '以心伝心ジャーニー', file: 'yuzu12edkurumi.html' },
                     { name: 'アオハルデイズ', file: 'yuzu12kurumi.html' },
                     { name: 'DIVE', file: 'yuzu12edkaguya.html' },
-                    // { name: '惚れて揺れて恋焦がれ', file: 'yuzu12kaguya.html' },
+                    { name: '惚れて揺れて恋焦がれ', file: 'yuzu12kaguya.html' },
                     { name: '幸せの魔法', file: 'yuzu12edorie.html' },
                     { name: 'wish', file: 'yuzu12edfumika.html' },
                 ]
