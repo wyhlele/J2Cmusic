@@ -137,7 +137,7 @@
                 folder: 'riddle',
                 expanded: false,
                 projects: [
-                    // { name: 'astral ability', file: 'yuzu10op.html' },
+                    { name: 'astral ability', file: 'yuzu10op.html' },
                     { name: 'ゆびきり', file: 'yuzu10edayase.html' },
                     { name: 'PERFECT GIRL', file: 'yuzu10ayase.html' },
                     { name: 'ずっと', file: 'yuzu10ednanami.html' },
