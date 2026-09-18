@@ -183,11 +183,11 @@
                 folder: 'ten_sz',
                 expanded: false,
                 projects: [
-                    // { name: 'FUN FUN RE-BOOT', file: 'yuzu12op.html' },
+                    { name: 'FUN FUN RE-BOOT', file: 'yuzu12op.html' },
                     { name: 'Call My Name', file: 'yuzu12ednoa.html' },
                     { name: '君と僕のハジメテ', file: 'yuzu12noa.html' },
                     { name: 'ねえ。', file: 'yuzu12edamane.html' },
-                    // { name: 'ワタシだけ。', file: 'yuzu12amane.html' },
+                    { name: 'ワタシだけ。', file: 'yuzu12amane.html' },
                     { name: '以心伝心ジャーニー', file: 'yuzu12edkurumi.html' },
                     { name: 'アオハルデイズ', file: 'yuzu12kurumi.html' },
                     { name: 'DIVE', file: 'yuzu12edkaguya.html' },
