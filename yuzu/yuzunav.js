@@ -118,7 +118,7 @@
                 folder: 'senren',
                 expanded: false,
                 projects: [
-                    // { name: '恋ひ恋ふ縁', file: 'yuzu09op.html' },
+                    { name: '恋ひ恋ふ縁', file: 'yuzu09op.html' },
                     { name: '愛しさと感謝の気持ち', file: 'yuzu09edyoshino.html' },
                     { name: 'とおりゃんせ~甘美風来', file: 'yuzu09yoshino.html' },
                     { name: 'ふたりで', file: 'yuzu09edmako.html' },
