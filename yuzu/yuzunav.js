@@ -23,7 +23,7 @@
                 expanded: false,
                 projects: [
                     { name: 'Trust in me', file: 'yuzu02op.html' },
-                    { name: 'True Drop', file: 'yuzu02ed.html' },
+                    { name: 'true drop', file: 'yuzu02ed.html' },
                 ]
             },
             {
