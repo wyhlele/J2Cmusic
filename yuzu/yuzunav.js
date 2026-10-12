@@ -46,7 +46,7 @@
                     { name: 'MUGEN∞MIRAI', file: 'yuzu04ed.html' },
                     { name: 'Charge of Soul', file: 'yuzu04hime.html' },
                     { name: '小さな願い', file: 'yuzu04ruri.html' },
-                    { name: 'With you!!', file: 'yuzu04sana.html' },
+                    { name: 'With You!!', file: 'yuzu04sana.html' },
                     { name: 'モットー', file: 'yuzu04aoi.html' },
                 ]
             },
