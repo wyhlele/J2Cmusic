@@ -8,7 +8,7 @@
         categories: [
             {
                 id: 'buraban',
-                name: '管乐恋曲! -The Bonds of Melody-',
+                name: '管乐恋曲！',
                 folder: 'buraban',
                 expanded: true,
                 projects: [
@@ -81,7 +81,7 @@
             },
             {
                 id: 'amairo',
-                name: '天色幻想岛',
+                name: '天色＊幻想岛',
                 folder: 'amairo',
                 expanded: false,
                 projects: [
@@ -99,8 +99,8 @@
                 folder: 'sothewitch',
                 expanded: false,
                 projects: [
-                    { name: '恋せよ乙女!', file: 'yuzu08op.html' },
-                    { name: 'Re:Start~君とまた出逢えて~', file: 'yuzu08ednene.html' },
+                    { name: '恋せよ乙女！', file: 'yuzu08op.html' },
+                    { name: 'Re:Start～君とまた出逢えて～', file: 'yuzu08ednene.html' },
                     { name: 'sweet treasure', file: 'yuzu08nene.html' },
                     { name: '天使の羽とクリスタル', file: 'yuzu08edmeguru.html' },
                     { name: 'リアルフレンド', file: 'yuzu08meguru.html' },
@@ -120,7 +120,7 @@
                 projects: [
                     { name: '恋ひ恋ふ縁', file: 'yuzu09op.html' },
                     { name: '愛しさと感謝の気持ち', file: 'yuzu09edyoshino.html' },
-                    { name: 'とおりゃんせ~甘美風来', file: 'yuzu09yoshino.html' },
+                    { name: 'とおりゃんせ～甘美風来', file: 'yuzu09yoshino.html' },
                     { name: 'ふたりで', file: 'yuzu09edmako.html' },
                     { name: '茉子の日常', file: 'yuzu09mako.html' },
                     { name: 'ふたつの影', file: 'yuzu09edmurasame.html' },
